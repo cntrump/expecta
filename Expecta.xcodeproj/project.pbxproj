@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2546A95C16629D500078E044 /* EXPMatchers+raiseWithReason.h in Headers */ = {isa = PBXBuildFile; fileRef = 2546A95A16629D4F0078E044 /* EXPMatchers+raiseWithReason.h */; };
-		2546A95D16629D500078E044 /* EXPMatchers+raiseWithReason.h in Headers */ = {isa = PBXBuildFile; fileRef = 2546A95A16629D4F0078E044 /* EXPMatchers+raiseWithReason.h */; };
+		2546A95C16629D500078E044 /* EXPMatchers+raiseWithReason.h in Headers */ = {isa = PBXBuildFile; fileRef = 2546A95A16629D4F0078E044 /* EXPMatchers+raiseWithReason.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2546A95D16629D500078E044 /* EXPMatchers+raiseWithReason.h in Headers */ = {isa = PBXBuildFile; fileRef = 2546A95A16629D4F0078E044 /* EXPMatchers+raiseWithReason.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2546A95E16629D500078E044 /* EXPMatchers+raiseWithReason.m in Sources */ = {isa = PBXBuildFile; fileRef = 2546A95B16629D4F0078E044 /* EXPMatchers+raiseWithReason.m */; };
 		2546A95F16629D500078E044 /* EXPMatchers+raiseWithReason.m in Sources */ = {isa = PBXBuildFile; fileRef = 2546A95B16629D4F0078E044 /* EXPMatchers+raiseWithReason.m */; };
 		2546A96216629DF70078E044 /* EXPMatchers+raiseWithReasonTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2546A96116629DF70078E044 /* EXPMatchers+raiseWithReasonTest.m */; };
@@ -361,14 +361,14 @@
 		E9ACDF0113B2DD520010F4D7 = {
 			isa = PBXGroup;
 			children = (
-				E95368421521B5FC00AA3B81 /* Expecta.podspec */,
-				E9ACDF9413B2DEF30010F4D7 /* LICENSE */,
-				E9ACDF9513B2DEF30010F4D7 /* README.md */,
-				E9A6BAAE13B7183100950250 /* RDD.md */,
 				E9ACDF3C13B2DDB00010F4D7 /* src */,
 				E9ACDF7213B2DEB70010F4D7 /* test */,
 				E9ACDF0E13B2DD520010F4D7 /* frameworks */,
 				E9ACDF0D13B2DD520010F4D7 /* products */,
+				E95368421521B5FC00AA3B81 /* Expecta.podspec */,
+				E9ACDF9413B2DEF30010F4D7 /* LICENSE */,
+				E9ACDF9513B2DEF30010F4D7 /* README.md */,
+				E9A6BAAE13B7183100950250 /* RDD.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -583,11 +583,11 @@
 				63F6F356150A542D009E1BC3 /* EXPMatchers+beCloseTo.h in Headers */,
 				63B349DE15135C8800C955DC /* EXPMatchers+haveCountOf.h in Headers */,
 				E9D3DF16157A7EB40054978E /* EXPMatchers+raise.h in Headers */,
+				2546A95D16629D500078E044 /* EXPMatchers+raiseWithReason.h in Headers */,
 				A305755F1520BCCB00DA19BD /* EXPMatcher.h in Headers */,
 				A30575641520BDCE00DA19BD /* EXPBlockDefinedMatcher.h in Headers */,
 				E95368521521BEE900AA3B81 /* EXPBackwardCompatibility.h in Headers */,
 				E95368911521C58D00AA3B81 /* EXPDefines.h in Headers */,
-				2546A95D16629D500078E044 /* EXPMatchers+raiseWithReason.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -622,11 +622,11 @@
 				63F6F355150A542D009E1BC3 /* EXPMatchers+beCloseTo.h in Headers */,
 				63B349DD15135C8800C955DC /* EXPMatchers+haveCountOf.h in Headers */,
 				E9D3DF15157A7EB40054978E /* EXPMatchers+raise.h in Headers */,
+				2546A95C16629D500078E044 /* EXPMatchers+raiseWithReason.h in Headers */,
 				A305755E1520BCCB00DA19BD /* EXPMatcher.h in Headers */,
 				A30575631520BDCE00DA19BD /* EXPBlockDefinedMatcher.h in Headers */,
 				E95368511521BEE900AA3B81 /* EXPBackwardCompatibility.h in Headers */,
 				E95368921521C58D00AA3B81 /* EXPDefines.h in Headers */,
-				2546A95C16629D500078E044 /* EXPMatchers+raiseWithReason.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1054,7 +1054,6 @@
 				DSTROOT = /tmp/Expecta_iOS.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "src/Expecta-Prefix.pch";
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1072,7 +1071,6 @@
 				DSTROOT = /tmp/Expecta_iOS.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "src/Expecta-Prefix.pch";
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1193,7 +1191,6 @@
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "src/Expecta-Prefix.pch";
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "";
@@ -1208,7 +1205,6 @@
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "src/Expecta-Prefix.pch";
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "";
